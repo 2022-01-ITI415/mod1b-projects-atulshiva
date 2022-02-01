@@ -6,7 +6,7 @@ public class Appletree : MonoBehaviour
 {
     public GameObject applePrefab;
     public float speed = 1f;
-    public float LeftAndRightEdge = 10f;
+    public float LeftAndRightEdge = 20f;
     public float chanceToChangeDirection = 0.02f;
     public float secondsBetweenAppleDrop = 1f;
 
@@ -33,9 +33,9 @@ public class Appletree : MonoBehaviour
             speed = -Mathf.Abs(speed); // Move left
         }
     }
-        void FixedUpdate() 
-    { 
-        if (Random.value < chanceToChangeDirection)
+    void FixedUpdate()
+    {
+        if ( Random.value < chanceToChangeDirection)
         {
             speed *= -1; // Change direction   
         }
