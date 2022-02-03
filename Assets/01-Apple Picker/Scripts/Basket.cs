@@ -18,8 +18,8 @@ public class Basket : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    Vector3 mousePos2D =
-        Input.mousePosition;
+        Vector3 mousePos2D =
+            Input.mousePosition;
 
         mousePos2D.z = -
         Camera.main.transform.position.z;
@@ -29,8 +29,8 @@ public class Basket : MonoBehaviour
         Vector3 pos = this.transform.position;
         pos.x = mousePos3D.x;
         this.transform.position = pos;
-
-        void OnCollisionEnter(Collision coll)
+    }
+        void OnCollisionEnter (Collision coll)
         {
             
             GameObject collidedWith = coll.gameObject;
@@ -56,4 +56,4 @@ public class Basket : MonoBehaviour
 
 
     }
-}
+
