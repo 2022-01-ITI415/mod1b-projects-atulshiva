@@ -227,6 +227,7 @@ GameObject:
   - component: {fileID: 595714935}
   - component: {fileID: 595714934}
   - component: {fileID: 595714933}
+  - component: {fileID: 595714936}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -299,6 +300,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &595714936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595714932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073db7ed938928140854a878d2ded0d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basketPrefab: {fileID: 38139244493653070, guid: d3e1d0b807566e0428f32dbc9d30b4b4, type: 3}
+  numBaskets: 3
+  basketBottomY: -14
+  basketSpacingY: 2
 --- !u!1 &635998777 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3188376793046055829, guid: 9a1110f899a695f4d8bb0d7284dca579, type: 3}
