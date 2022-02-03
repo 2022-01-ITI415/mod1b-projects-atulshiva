@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13966, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: Apple Picker Prototype
+  m_EditorClassIdentifier: 
+  templateScene: {fileID: 102900000, guid: c9fc5289d74bc014a89ed3c6afd47d5f, type: 3}
+  templateName: 
+  description: 
+  preview: {fileID: 0}
+  dependencies:
+  - dependency: {fileID: 2100000, guid: 107d7d6dcbe8c3d408b90ecbb82900a7, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 38139244493653070, guid: d3e1d0b807566e0428f32dbc9d30b4b4, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 3188376793046055829, guid: 9a1110f899a695f4d8bb0d7284dca579, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 98c2dfc0b27a3084499cd48fc77be83b, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 4950818563259106849, guid: 8281c2a3be8fb2549bcbde9bc50747b0, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: 09a38cb680732864eb0d935aa2682467, type: 2}
+    instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: f3884fc08ddbabd49a8a1e9c1ba7cf8c, type: 2}
+    instantiationMode: 0
+  templatePipeline: {fileID: 0}
+  addToDefaults: 0

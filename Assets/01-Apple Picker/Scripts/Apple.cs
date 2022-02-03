@@ -5,7 +5,7 @@ using UnityEngine;
 public class Apple : MonoBehaviour
 {
     public static float bottomY = -20f;
-   
+ 
 
 
 
@@ -21,6 +21,8 @@ public class Apple : MonoBehaviour
         {
             Destroy( this.gameObject );
             // b
+            ApplePicker apScript = Camera.main.GetComponent < ApplePicker > ();
+            apScript.AppleDestroyed();
         }
 
     }
