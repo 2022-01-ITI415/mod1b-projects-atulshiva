@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+
 public class Basket : MonoBehaviour
 {
     public Text scoreGT;
@@ -18,14 +19,14 @@ public class Basket : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 mousePos2D =
-            Input.mousePosition;
+        // get mouse position code
+        Vector3 mousePos2D = Input.mousePosition;
 
-        mousePos2D.z = -
-        Camera.main.transform.position.z;
+        mousePos2D.z = -Camera.main.transform.position.z;
 
         Vector3 mousePos3D = Camera.main.ScreenToWorldPoint(mousePos2D);
-
+        
+        // move basket side to side using the x
         Vector3 pos = this.transform.position;
         pos.x = mousePos3D.x;
         this.transform.position = pos;
