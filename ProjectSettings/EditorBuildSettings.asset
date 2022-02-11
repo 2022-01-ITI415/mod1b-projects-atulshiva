@@ -17,10 +17,13 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/00-Scenes/ApplePickerDuplicate.unity
     guid: 1c1cc4d7a8e2dab49bf42653658a4971
-  - enabled: 1
+  - enabled: 0
     path: Assets/00-Scenes/ApplePicker.unity
     guid: 6e32ff901cbcf294994f95a2a7d85edd
+  - enabled: 1
+    path: Assets/00-Scenes/_Scene_0_Mission_Dem.unity
+    guid: 1985be8de0940034a9d55887bd771d59
   m_configObjects: {}
